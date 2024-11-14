@@ -1,3 +1,9 @@
+setup cloudflare d1 (kv) for auth
+setup cloudflare blob storage for per user context
+add auth with worker-auth-providers
+add gcal perm
+update CRUD with gCAL
+
 # Cloudflare Workers OpenAPI 3.1
 
 This is a Cloudflare Worker with OpenAPI 3.1 using [chanfana](https://github.com/cloudflare/chanfana) and [Hono](https://github.com/honojs/hono).
